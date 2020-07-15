@@ -1,17 +1,22 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
+  <div class="layout-documentation page-components">
+    <navBar>
+      <imageHeader></imageHeader>
+    </navBar>
     <slot/>
   </div>
 </template>
+
+<script>
+import navBar from '~/components/Navbar.vue'
+import imageHeader from '~/components/imgheader.vue'
+export default {
+  components: {
+    navBar,
+    imageHeader
+  }
+}
+</script>
 
 <static-query>
 query {
