@@ -1,17 +1,18 @@
 <template>
-  <div class="section is-small has-text-right" style="background-color: rgba(38, 38, 38, 0.97); margin-bottom: 0;">
-    <b-button type="is-warning" @click="close_terminal">X</b-button>
-    <p class="title terminal-font has-text-black has-text-left" ref="command">&#62;</p><br>
+  <div class="section is-small has-text-right" style="background-color: rgba(40, 38, 38, 0.97); margin-bottom: 0;">
+    <b-button type="" style="color: white; background-color: transparent;" @click="close_terminal">X</b-button>
+    <p class="title terminal-font has-text-black has-text-left" ><i ref="command">&#62;</i></p><br>
     <p class="title terminal-font has-text-black has-text-left" ref="line"></p>
   </div>
 </template>
 
 <script>
+var i = 0;
   export default {
     data(){
       return{
-        terminalCommand: '> print(intro);',
-        terminalResponse: '>> "Welcome to my personal website"',
+        terminalCommand: '> print(welcomeMessage);',
+        terminalResponse: 'Welcome to my personal website! Go ahead and take a look around.',
       }
     },
     mounted(){
@@ -20,19 +21,22 @@
     methods: {
         close_terminal: function(e){
          e.target.parentElement.style.display = "none";
+         e.target.parentElement.setAttribute("display", "none");
         },
         simulatedTyping: function(){
           var vm = this;
-          
 
-          for(let i = 1; i < vm.terminalCommand.length + 1; i++){
+          if (i < vm.terminalCommand.length) {
             this.$refs.command.innerText = vm.terminalCommand.substr(0, i) + "_";
+            i++;
+            setTimeout(vm.simulatedTyping, 100);
+          } 
+          if(i >= vm.terminalCommand.length){
+            this.$refs.command.innerText = vm.terminalCommand.substr(0, i)
+            this.$refs.line.innerText = vm.terminalResponse;
           }
+        },
 
-          for(let i = 1; i < vm.terminalResponse.length + 1; i++){
-            this.$refs.line.innerText = vm.terminalResponse.substr(0, i);
-          }
-        }
     }
   }
 </script>
