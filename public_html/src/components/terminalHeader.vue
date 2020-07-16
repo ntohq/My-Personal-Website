@@ -1,6 +1,6 @@
 <template>
   <div class="section is-small has-text-right" style="background-color: rgba(40, 38, 38, 0.97); margin-bottom: 0;">
-    <b-button type="" style="color: white; background-color: transparent;" @click="close_terminal">X</b-button>
+    <b-button class="delete is-large" style="color: white; background-color: transparent;" @click="close_terminal"></b-button>
     <p class="title terminal-font has-text-black has-text-left" ><i ref="command">&#62;</i></p><br>
     <p class="title terminal-font has-text-black has-text-left" ref="line"></p>
   </div>

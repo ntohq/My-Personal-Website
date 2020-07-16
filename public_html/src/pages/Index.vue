@@ -1,18 +1,20 @@
 <template>
   <Layout>
     <greetings></greetings>
+    <quickView></quickView>
   </Layout>
 </template>
 
 <script>
 import greetings from '~/components/greeting.vue'
-
+import quickView from '~/components/quickPreviewTiles.vue'
 export default {
   metaInfo: {
     title: 'Home'
   },
   components: {
-    greetings
+    greetings,
+    quickView
   }
 }
 </script>

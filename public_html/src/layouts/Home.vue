@@ -1,7 +1,7 @@
 <template>
   <div class="layout-documentation page-components">
     <navBar>
-      <imageHeader></imageHeader>
+      <terminal></terminal>
     </navBar>
     <slot/>
     <Footer></Footer>
@@ -10,13 +10,13 @@
 
 <script>
 import navBar from '~/components/Navbar.vue'
-import imageHeader from '~/components/imgheader.vue'
+import terminal from '~/components/terminalHeader.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     navBar,
-    imageHeader,
+    terminal,
     Footer
   }
 }
