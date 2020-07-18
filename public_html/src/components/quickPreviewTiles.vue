@@ -7,7 +7,7 @@
       </article>
       <article class="tile is-ancestor has-background-black">
         <div class="tile is-parent is-vertical">
-          <h2 class="title is-2 has-text-centered" style="color: rgb(25, 255, 17); margin-left: 20px;">My Projects</h2>
+          <h2 class="title is-2 has-text-centered" style="margin-left: 20px;">My Projects</h2>
           <div class="tile is-child media" style="margin-left: 15px;">
             <figure class="image media-left is-4by2" style="max-width: 115px;">
               <a href="https://github.com/Sergix/analyst">
