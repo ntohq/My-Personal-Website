@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <greetings style="margin-left: auto; margin-right: auto; max-width: 150em;"></greetings>
-    <quickView style="margin-left: auto; margin-right: auto; max-width: 150em;"></quickView>
+    <greetings style="margin-left: auto; margin-right: auto; max-width: 125em;"></greetings>
+    <quickView style="margin-left: auto; margin-right: auto; max-width: 125em;"></quickView>
   </Layout>
 </template>
 
