@@ -1,8 +1,8 @@
 <template>
   <mainLayout>
-    <div class="hero">
+    <div class="section">
       <h2 class="title">About Me</h2>
-      <p></p>
+      <p>Hi! My name is Wesley Ford. I am a college student majoring in computer science. For three years I have been programming.</p>
     </div>
   </mainLayout>
 </template>

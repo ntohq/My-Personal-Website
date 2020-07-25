@@ -24,6 +24,7 @@
       <div class="navbar-menu">
         <div class="navbar-end" style="margin-right: 25px;">
           <a class="navbar-item" href="/">Home</a>
+          <a class="navbar-item" href="/blog">Blog</a>
           <a class="navbar-item" href="/about">About Me</a>
           <a class="navbar-item" href="/projects">My Projects</a>
           <a class="navbar-item" href="/contact">Contact Me</a>

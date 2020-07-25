@@ -1,5 +1,5 @@
 <template>
-  <section class="section tile is-ancestor notification is-dark" style="margin: 0 auto;">
+  <section class="section tile is-ancestor notification is-dark" style="margin: 0 auto; border-radius: 0;">
     <div class="tile is-parent is-vertical">
       <article class="tile is-child box">
         <h2 class="title is-1 has-text-centered has-text-black">Quick Overview</h2>
