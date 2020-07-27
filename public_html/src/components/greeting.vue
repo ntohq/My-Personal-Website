@@ -5,9 +5,9 @@
         <figure class="image is-48x48 media-left">
           <img class="is-rounded" src="@/assets/animatedMe.png"/>
         </figure>
-        <p class="media-content">
+        <p class="media-content" style="text-indent: 1.0em;">
           Oh, hey there! You've found my website! Here I showcase my projects, posts, articles, and career. I hope all the resources that I have here are helpful to you. All your feedback is appreciated.
-          Thank you, and God bless. <br>     ~Wesley Ford 
+          Thank you, and God bless. <br>     <i style="margin-left: 20px;">~Wesley Ford</i> 
         </p>
       </div>
     </section>

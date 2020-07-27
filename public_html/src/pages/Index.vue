@@ -10,7 +10,7 @@ import greetings from '~/components/greeting.vue'
 import quickView from '~/components/quickPreviewTiles.vue'
 export default {
   metaInfo: {
-    title: 'Home'
+    title: 'home'
   },
   components: {
     greetings,
