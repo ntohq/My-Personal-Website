@@ -10,7 +10,18 @@
 <script>
 export default {
   metaInfo: {
-    title: 'about me'
+    title: 'about me',
+    meta: [
+      {
+        name: 'author',
+        content: 'Wesley Ford'
+      },
+      {
+        key: 'description',
+        name: 'description',
+        content: 'Welcome to my about page! This page will help you get to know me better and  learn about what I am doing as a soon to be software engineer.'
+      }
+    ],
   }
 }
 </script>

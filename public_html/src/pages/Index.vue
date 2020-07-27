@@ -10,7 +10,18 @@ import greetings from '~/components/greeting.vue'
 import quickView from '~/components/quickPreviewTiles.vue'
 export default {
   metaInfo: {
-    title: 'home'
+    title: 'home',
+    meta: [
+      {
+        name: 'author',
+        content: 'Wesley Ford'
+      },
+      {
+        key: 'description',
+        name: 'description',
+        content: 'Welcome! You have found my personal website! Go ahead and take a look around.'
+      }
+    ],
   },
   components: {
     greetings,
