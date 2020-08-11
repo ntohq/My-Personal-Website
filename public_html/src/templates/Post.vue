@@ -1,6 +1,6 @@
 <template>
   <mainLayout>
-    <section class="section">
+    <section class="section" style="margin-left: auto; margin-right: auto; max-width: 125em;">
       <h2 class="title is-2">
         {{ $page.post.title }}
       </h2>
