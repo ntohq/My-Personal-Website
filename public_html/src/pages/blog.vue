@@ -71,7 +71,8 @@ query ($page: Int) {
 <script>
 export default {
     metaInfo:{
-      title: 'blog'
+      title: 'blog',
+      keywords:'wesley ford, blog, wesley ford post, dev news, ntohq blog'
     },
     name: 'MyBlog',
     computed: {
