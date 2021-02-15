@@ -20,6 +20,11 @@ export default {
         key: 'description',
         name: 'description',
         content: 'Welcome! You have found my personal website! Go ahead and take a look around.'
+      },
+      {
+        key: 'keywords',
+        name: 'keywords',
+        content: 'Wesley Ford, developer, homepage, info, tech, software, programmer'
       }
     ],
   },
